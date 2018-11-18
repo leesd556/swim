@@ -3,9 +3,7 @@ package pb;
 
 message Message {
 
-    string seq = 1;
-
-    //
+    string id = 1;
     string address = 2;
 
     oneof payload {
